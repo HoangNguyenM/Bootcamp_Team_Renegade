@@ -14,6 +14,6 @@ The information that we work with decide the dataset. There are two types of inf
 - Data gathering and PCA are performed in "news_reader.ipynb", the news gathering uses same stocks and same dates as the financial ratios above for potential combination in the future.
 
 Intermediary results:
-The data are successfully gathered based on 10 stocks with quarterly data from the past 10 years. The data set has been formated in the wanted structure. However more data may be needed to improve the model.
+The data are successfully gathered based on 10 stocks with quarterly data from the past 10 years. The data set has been formated in the wanted structure. However more data may be needed to improve the model. A demonstration of the data set is shown in "financial_data_with_labels.csv".
 1. For the financial release component: linear regression model provides good residuals, with all the residuals spread around 0 with approximately normal distribution and the scatter plot looks relatively random for the noise. Random forest also provides similar scatter plot, with nicely distributed random residuals.
 2. For the news component: PCA result shows that the news are clustered nicely and can be classified into positive, negative and neutral news potentially.
