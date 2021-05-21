@@ -11,7 +11,7 @@ The information that we work with decide the dataset. There are two types of inf
 - A demonstration of features correlations are shown in "Profile Report on Financial Ratios.html".
 - Neural network model is currently in development and testing.
 2. For the news component:
-- Data gathering and PCA are performed in "news_read.ipynb", the news gathering uses same stocks and same dates as the financial ratios above for potential combination in the future.
+- Data gathering and PCA are performed in "news_reader.ipynb", the news gathering uses same stocks and same dates as the financial ratios above for potential combination in the future.
 
 Intermediary results:
 The data are successfully gathered based on 10 stocks with quarterly data from the past 10 years. The data set has been formated in the wanted structure. However more data may be needed to improve the model.
