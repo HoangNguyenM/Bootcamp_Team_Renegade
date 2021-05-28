@@ -12,6 +12,7 @@ The information that we work with decide the dataset. There are two types of inf
 
 2. For the news component:
 - Data gathering and PCA are performed in "news_reader.ipynb", the news gathering uses same stocks and same dates as the financial ratios above for potential combination in the future.
+- The linear regression on the data containing headlines is performed in "news_model.py".
 
 Results:
 The data are successfully gathered The data set has been formated in the wanted structure. However more data may be needed to improve the model. A demonstration of the data set is shown in "financial_data_updated_transpose.csv".
